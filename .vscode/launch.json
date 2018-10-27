@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CaptionTvTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.CaptionTvTest",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.DemoApplication",
+            "args": "",
+            "projectName": "jungsuk"
+        }
+    ]
+}
