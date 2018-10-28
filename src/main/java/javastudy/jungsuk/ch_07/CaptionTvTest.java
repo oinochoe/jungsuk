@@ -24,7 +24,7 @@ class CaptionTv extends Tv {
 public class CaptionTvTest {
     public static void main(String[] args) {
         CaptionTv ctv = new CaptionTv();
-        ctv.channel = 10; // 조상 클래스로부터 상속받은 멤버
+        ctv.channel = 13; // 조상 클래스로부터 상속받은 멤버 
         ctv.channelUp();  // 조상 클래스로부터 상속받은 멤버
         System.out.println(ctv.channel);
         ctv.displayCaption("Hello, world");
