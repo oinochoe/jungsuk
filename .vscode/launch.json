@@ -2,6 +2,72 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InnerEx8",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.anonym.InnerEx8",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerEx7",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.anonym.InnerEx7",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerEx5",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.inner.InnerEx5",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerEx4",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.inner.InnerEx4",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InnerEx1",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.inner.InnerEx1",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DefaultMethodTest",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_07.inter.DefaultMethodTest",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceTest3",
             "request": "launch",
             "cwd": "${workspaceFolder}",

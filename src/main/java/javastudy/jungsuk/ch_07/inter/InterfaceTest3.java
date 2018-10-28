@@ -1,7 +1,5 @@
 package javastudy.jungsuk.ch_07.inter;
 
-import org.apache.tomcat.InstanceManager;
-
 /**
  * InterfaceTest3
  */
