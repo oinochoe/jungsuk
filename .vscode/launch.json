@@ -2,6 +2,61 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ExceptionEx12",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_08.ExceptionEx12",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionEx11",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_08.ExceptionEx11",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionEx10",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_08.ExceptionEx10",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionEx9",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_08.ExceptionEx9",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionEx8",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "javastudy.jungsuk.ch_08.ExceptionEx8",
+            "args": "",
+            "projectName": "jungsuk"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InnerEx8",
             "request": "launch",
             "cwd": "${workspaceFolder}",
