@@ -5,7 +5,7 @@ public class ExceptionEx15 {
 
     public static void main(String[] args) {
         // comand line's value created by typing
-        File f = createFile(args[0]);
+        File f = createFile("newname.txt");
         System.out.println(f.getName() + "file is created successfully");
     }
 
