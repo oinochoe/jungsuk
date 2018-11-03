@@ -5,9 +5,9 @@ package javastudy.jungsuk.ch_07;
  */
 public class DrawShape {
     public static void main(String[] args) {
-        Point[] p = { new Point(100, 100), new Point(140, 50), new Point(20, 100) };
+        Point6[] p = { new Point6(100, 100), new Point6(140, 50), new Point6(20, 100) };
         Triangle t = new Triangle(p);
-        Circle c = new Circle(new Point(150, 150), 50);
+        Circle c = new Circle(new Point6(150, 150), 50);
 
         c.draw(); // 원을 그린다
         t.draw(); // 삼각형을 그린다
@@ -22,16 +22,16 @@ class Shape {
     }
 }
 
-class Point {
+class Point6 {
     int x;
     int y;
 
-    Point(int x, int y) {
+    Point6(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    Point() {
+    Point6() {
         this(0, 0);
     }
 
@@ -41,14 +41,14 @@ class Point {
 }
 
 class Circle extends Shape {
-    Point center; // 원의 원점좌표
+    Point6 center; // 원의 원점좌표
     int r;
 
     Circle() {
-        this(new Point(0, 0), 100); // Circle(Point, center, int r)를 호출
+        this(new Point6(0, 0), 100); // Circle(Point6, center, int r)를 호출
     }
 
-    Circle(Point center, int r) {
+    Circle(Point6 center, int r) {
         this.center = center;
         this.r = r;
     }
@@ -59,9 +59,9 @@ class Circle extends Shape {
 }
 
 class Triangle extends Shape {
-    Point[] p = new Point[3]; // 3개의 Point 인스턴스를 담을 배열을 생성
+    Point6[] p = new Point6[3]; // 3개의 Point 인스턴스를 담을 배열을 생성
 
-    Triangle(Point[] p) {
+    Triangle(Point6[] p) {
         this.p = p;
     }
 

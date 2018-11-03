@@ -3,15 +3,6 @@ package javastudy.jungsuk.ch_07;
 /**
  * CaptionTvTest
  */
-class Tv {
-    boolean power;
-    int channel;
-
-    void power() { power = !power; }
-    void channelUp() { ++channel; }
-    void channelDown() { --channel; }
-}
-
 class CaptionTv extends Tv {
     boolean caption; // 캡션상태 (on/off)
     void displayCaption (String text) {
